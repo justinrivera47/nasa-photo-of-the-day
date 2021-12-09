@@ -1,10 +1,14 @@
 import React from "react";
 import "./App.css";
-import Data from "./components/Data"
+import Image from "./components/Image"
+import Header from "./components/Header"
 
 function App() {
   return (
-    <Data />
+    <>
+    <Header />
+    <Image />
+    </>
   );
 }
 
